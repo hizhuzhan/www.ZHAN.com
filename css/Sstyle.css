@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0px;
+	margin:0px;
+}
+
+.Aniu3{
+	width: 70px;
+	height: 30px;
+	color:#FFF;
+	background-color:#0fae6f;
+	font-size:16px;
+	border: solid 1px;
+	}
+.Aniu4{
+	height: 40px;
+	width: 350px;
+	color:#31343B;
+	background-color:#FFF;
+	font-size:24px;
+	border: solid 1px #31343B;
+	}
+.St{
+	background-color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	}
+.Sc1{
+	background-color:#FFFFFF;
+	height: 55px;
+	width: 1000px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	line-height: 50px;
+	}
+.Sc2{
+	background-color:#FFFFFF;
+	height: 850px;
+	width: 1000px;
+	margin-top:2px;
+	margin-left:auto;
+	margin-right:auto;	
+	}
+.Sc3{
+	background-color:#FFFFFF;
+	height: 950px;
+	width: 1000px;
+	margin-top:2px;
+	margin-left:auto;
+	margin-right:auto;	
+	}
+.Sc4{
+	background-color:#FFFFFF;
+	height: 100px;
+	width: 1000px;
+	margin-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+    }
+.Sc5{
+	background-color:#FFFFFF;
+	height: 250px;
+	width: 1000px;
+	margin-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}

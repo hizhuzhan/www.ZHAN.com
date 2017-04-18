@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link {
+	text-decoration:none;
+}
+.H {
+	font-size: 30px;
+	color: #FEFEFE;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.H2 {
+	font-size: 30px;
+	color: #31343B;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.H2-1 {
+	font-size: 18px;
+	color: #31343B;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.H3 {
+	font-size: 50px;
+	color: #31343B;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.a {
+	font-size: 14px;
+	color: #FEFEFE;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.a2 {
+	font-size: 14px;
+	color: #31343B;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.a3 {
+	font-size: 18px;
+	color: #31343B;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.a4 {
+	font-size: 12px;
+	color: #CDCDCD;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+}
+.line{
+	line-height:50px;
+	}
+.slideCommon {
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	z-index:200;
+}
+.slide1 {
+	background-image: url(../img/index1.jpg);
+}
+.slide2 {
+	background-image: url(../img/index2.jpg);
+}
+.slide3 {
+	background-image: url(../img/index3.jpg);
+}
+.slide4 {
+	background-image: url(../img/index4.jpg);
+}
+.slide5 {
+	background-image: url(../img/index5.jpg);
+}
+.slide6 {
+	background-image: url(../img/index6.jpg);
+}
+.t {
+	background-color: #0B0B0B;
+	width: 100%;
+	position: fixed;
+	z-index:100;
+}
+.page2 {
+	background-color: #F7F7F7;
+	height: 30px;
+	width: 1100px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page3 {
+	width:1100px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.page4 {
+	background-color:#F7F7F7;
+	height: 620px;
+	width: 100%;
+}
+.page4 select {
+	height: 40px;
+	width: 350px;
+	color: #666;
+	font-size:16px;
+	margin-bottom: 20px;
+}
+.page4 input {
+	height: 40px;
+	width: 350px;
+	color: #F7F7F7;
+	font-family: "Helvitica Neue", Helvitica, Arial, "Microsoft YaHei", sans-serif;
+	font-size:16px;
+	margin-bottom: 20px;
+	background-color: #00B06D;
+}
+.page4-1 {
+	background-color: #F7F7F7;
+	height: 20px;
+	width: 1100px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page5 {
+	background-color:#FFFFFF;
+	height: 700px;
+	width: 100%;
+}
+.page5-1 {
+	background-color: #FFF;
+	height: 20px;
+	width: 1100px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page5-2 {
+	background-color: #FFFFFF;
+	height: 100px;
+	width: 100%;
+	margin-top:2px;
+	padding-top:30px;
+	padding-bottom:40px;
+}
+.page5-3 {
+	background-color: #FFFFFF;
+	height: 30px;
+	width: 100%;
+	padding-top:15px;
+	padding-bottom:5px;
+	margin-top:2px;
+}
+
+/*  幻灯片箭头  */
+.fp-controlArrow {
+	border: 0;
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 58px;
+	cursor: pointer;
+	background: url(../img/a22.png) center center no-repeat;
+	overflow: hidden;
+}
+.fp-controlArrow.fp-prev {
+	background-position: -10px -31px;
+	width: 40px;
+	height: 58px;
+}
+.fp-controlArrow.fp-prev:hover {
+	background-position: -130px -31px;
+}
+.fp-next {
+	background-position: -70px -31px;
+}
+.fp-next:hover {
+	background-position: -190px -31px;
+}
+/*  箭头结束  */
+
+
+/*  图片覆盖效果  */
+h3 {
+	font-size:25px;
+	color:#fff;
+}
+.slip {
+	width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.slip ul li {
+	width:360px;
+	height:240px;
+	float:left;
+	margin-bottom:5px;
+	margin-left: 5px;
+	list-style-type:none;
+}
+/*  覆盖效果结束  */
+
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 52px;
+	right: 1%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../img/arr.png") no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/

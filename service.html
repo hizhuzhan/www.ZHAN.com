@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 维修</title>
+<link rel="shortcut icon" href="img/title.ico"/>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/Sstyle.css" rel="stylesheet" type="text/css" />
+<style>
+span{
+color: #0fae6f;    
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/logon.js"></script>
+<link rel="stylesheet" type="text/css"  href="css/logoin-style.css"/>
+<link rel="stylesheet" type="text/css"  href="css/logon-style.css"/>
+
+<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+</head>
+
+<body bgcolor="#ECEEF1">
+<div class="St">
+  <table width="1000" align="center">
+    <tr>
+      <td width="200" height="60" class="H2"><a class="H2" href="index.html">ZHAN</a> | <span>FIX</span></td>
+      <td width="100" height="60" align="left" valign="middle" >
+      <input class="Aniu3" name="logon" type="button" value="iphone" onclick="window.open('#PHONE')"/>
+      </td>
+      <td width="620" height="60" valign="middle" class="a3">
+      <input class="Aniu3" name="logon" type="button" value="ipad" onclick="window.open('#PAD')"/>
+      </td>
+      <td width="40" height="60" align="right"><div class="login-header aa"><a href="javascript:void(0);"><p class="a2">登陆</p></a></div></td>
+      <td width="40" height="60" align="right"><div class="logon-header aa"><a href="javascript:void(0);"><p class="a2">注册</p></a></div></td>
+    </tr>
+  </table>
+  <!-- login  -->
+  <div class="login">
+    <div class="login-title">登录用户<span><a href="javascript:void(0);" class="close-login">关闭</a></span></div>
+    <div class="login-input-content">
+      <div class="login-input">
+        <label class="H2-1">用&nbsp;户&nbsp;名：</label>
+        <input type="text" placeholder="请输入用户名"  name="info[username]" id="username" class="list-input"/>
+      </div>
+      <div class="login-input">
+        <label class="H2-1">登录密码：</label>
+        <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input"/>
+      </div>
+    </div>
+    <div class="login-button"><a href="javascript:void(0);" id="login-button-submit">登录</a></div>
+  </div>
+  
+  <!-- logon  -->
+  
+   <div class="logon">
+    <div class="logon-title">注册用户<span><a href="javascript:void(0);" class="close-logon">关闭</a></span></div>
+    <div class="logon-input-content">
+      <div class="logon-input">
+        <label class="H2-1">用&nbsp;户&nbsp;名：</label>
+        <input type="text" placeholder="请输入用户名"  name="info[username]" id="username" class="list-input"/>
+      </div>
+      <div class="logon-input">
+        <label class="H2-1">登录密码：</label>
+        <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input"/>
+      </div>
+      <div class="logon-input">
+        <label class="H2-1">登录密码：</label>
+        <input type="password" placeholder="请重新输入登录密码" name="info[password]" id="password2" class="list-input"/>
+      </div>
+    </div>
+    <div class="logon-button"><a href="javascript:void(0);" id="logon-button-submit">注册</a></div>
+  </div>
+</div>
+
+<div class="Sc1">
+<p class="a2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请提前填写信息，每天中午12点提交订单
+</p>
+</div>
+<div class="Sc2">
+<table width="1000" align="center">
+  <tr>
+    <td height="80"  align="center" valign="bottom">
+    <input class="Aniu4" name="logon" type="button" value="iphone" />
+    </td>
+  </tr>
+  <tr>
+    <td height="40"  align="center" valign="middle">
+    <p class="a2">支持&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;iPhone 6&nbsp;&nbsp;iPhone 6 Plus&nbsp;&nbsp;iPhone 5s&nbsp;&nbsp;iPhone 5c&nbsp;&nbsp;iPhone 5&nbsp;&nbsp;iPhone 4s&nbsp;&nbsp;iPhone 4</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <a name="PHONE" id="PHONE"></a><img src="img/F1.PNG" width="518" height="675" alt="此处有图" /></td>
+  </tr>
+</table>
+</div>
+<div class="Sc3">
+<table width="1000" align="center">
+  <tr>
+    <td height="80"  align="center" valign="bottom">
+    <input class="Aniu4" name="logon" type="button" value="ipad" />
+    </td>
+  </tr>
+  <tr>
+    <td height="40"  align="center" valign="middle">
+    <p class="a2">支持&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;iPad Air&nbsp;&nbsp;iPad 4&nbsp;&nbsp;iPad 3&nbsp;&nbsp;iPad 2&nbsp;&nbsp;iPad mini2&nbsp;&nbsp;iPad mini</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <a name="PAD" id="PAD"></a><img src="img/F3.PNG" width="928" height="785" alt="此处有图" />
+      </td>
+  </tr>
+</table>
+</div>
+<div class="Sc4">
+<table width="1000" height="100">
+  <tr>
+    <td align="center" valign="middle">
+      <img src="img/F2.PNG" width="774" height="31" alt="此处有图" /></td>
+  </tr>
+</table>
+
+</div>
+<div class="Sc5">
+<table width="800" align="center">
+  <tr>
+    <td height="250">
+    <img src="img/2WEIMA.jpg" width="110" height="110" alt="自处有图" />
+    </td>
+    <td height="250">
+    <p class="H2">关注 | ZHAN</p>
+    </td>
+    <td height="250">
+      <img src="img/F4.PNG" width="44" height="58" alt="此处有图" />
+      </td>
+    <td height="250">
+     <p class="a2">查询维修报价</p>
+     <p class="a2">手机查询更方便</p>
+    </td>
+    <td height="250">
+      <img src="img/F5.PNG" width="59" height="59" alt="此处有图" /></td>
+    <td height="250">
+    <p class="a2">追踪维修进度</p>
+    <p class="a2">随时随地自由追终</p>
+    </td>
+  </tr>
+</table>
+</div>
+<div class="w2">
+<p align="center" class="a4">technology stays here | BK | ZHUZHAN
+</div>
+
+      <!-- smooth scrolling --> 
+<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script> 
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> 
+<!-- //smooth scrolling -->
+
+
+</body>
+</html>
