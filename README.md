@@ -4,5 +4,5 @@
 ----
 请大家不要被仓库名所误解，那只是我自己起的一个名字，可能不小心跟一个考托福雅思的网站撞名了：）</br>
 这也是本人某个学期的一次大作业</br>
-其中主要使用了Fullpage网页框架</br>
-其余就是使用了html，css，javascript等技术
+其中主要使用了Fullpage模板</br>
+其余就是使用了html，css，javascript，jquery等技术
